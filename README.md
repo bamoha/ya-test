@@ -35,13 +35,12 @@ Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) with your browser to see t
 
 ## Deployment
 
-The application is deployed to [https://lustrous-palmier-5d1b56.netlify.app/](https://lustrous-palmier-5d1b56.netlify.app/) with your browser to see the result.
+The application is deployed to [https://unique-babka-34abc5.netlify.app/](https://unique-babka-34abc5.netlify.app/), visit with your browser to see the result.
 
 ## Stack
 
 1. React
 2. Chakra UI
-
 
 ## Design Decisions
 
@@ -55,15 +54,15 @@ The application is deployed to [https://lustrous-palmier-5d1b56.netlify.app/](ht
 8. I made sure that the application is fully responsive.
 
 - Scenario: Display the reservations as a list;
-The reservations were displayed in a table format.
+  The reservations were displayed in a table format.
 
 - Scenario: Filter reservations
-Filters were created, you select a filter and you click on the filter button to apply your filters
+  Filters were created, you select a filter and you click on the filter button to apply your filters
 
 - Scenario: Sort reservations
-A sorting mechanism was created, it applies to any table elements that has the isSortable value on its schema.
+  A sorting mechanism was created, it applies to any table elements that has the isSortable value on its schema.
 
 - Scenario: Search by name and surname
-An input field exists to help search by name and surname
+  An input field exists to help search by name and surname
 
 The project was bundled and created with Vite.
