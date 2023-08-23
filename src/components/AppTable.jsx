@@ -17,13 +17,11 @@ import {
   InputLeftElement,
 } from "@chakra-ui/react";
 import { SearchIcon, UpDownIcon } from "@chakra-ui/icons";
-import * as data from "../serverResponse.json";
-import dataSchema from "./tableSchema";
 import * as dayjs from "dayjs";
 import Filter from "./Filter";
 import { compareValues } from "../utils";
 
-const AppTable = () => {
+const AppTable = ({data, dataSchema}) => {
   const [schema, setSchema] = useState(dataSchema);
   const [sortType, setSortType] = useState(null);
   const [sortedData, setSortedData] = useState([]);

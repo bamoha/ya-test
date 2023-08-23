@@ -1,5 +1,7 @@
 import { Box, Container, Flex } from "@chakra-ui/react";
 import AppTable from "../components/AppTable";
+import dataSchema from "../tableSchema";
+import * as data from "../serverResponse.json";
 
 const IndexPage = () => {
   return (
@@ -12,7 +14,7 @@ const IndexPage = () => {
       <Flex minH={"100vh"}>
         <Box width={"100%"}>
           <Box overflow="scroll" maxW={"1000px"}>
-            <AppTable/>
+            <AppTable data={data} dataSchema={dataSchema} />
           </Box>
         </Box>
       </Flex>
