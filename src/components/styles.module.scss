@@ -1,0 +1,25 @@
+.customFieldOptions {
+  max-height: 40vh;
+  overflow-y: scroll;
+  position: absolute;
+  top: 2.125rem;
+  flex-direction: column;
+  min-width: 11.75rem;
+  border: 1px solid #d2ddeb;
+  box-shadow: 0 10px 15px rgba(171, 191, 216, 0.2);
+  border-radius: 3px;
+  background: #fff;
+  z-index: 2;
+  right: 0rem;
+}
+.customFieldOption {
+  padding: 0.8125rem;
+  color: #576371;
+  cursor: pointer;
+  align-items: center;
+  display: flex;
+  display: -webkit-flex;
+  font-size: 0.9375rem;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+}

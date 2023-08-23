@@ -1,0 +1,9 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 3.75rem 0;
+  overflow: auto;
+  background: #f0f4f9 !important;
+  background-repeat: repeat-x;
+}
